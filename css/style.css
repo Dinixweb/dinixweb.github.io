@@ -421,12 +421,11 @@ html {
 }
 .footer-links ul{
     list-style: none;
-
 }
-
 .footer-links ul li{
     display: inline;
-    padding: 0 15px;
+    padding: 0 10px;
+    font-size: 13px;
 }
 .footer-links ul li a{
    color: #fff;
@@ -434,4 +433,11 @@ html {
 }
 .footer-links ul li a:hover{
     border-bottom: 1px dotted rgb(15, 193, 238);
+ }
+ .floatingButton{
+     position:fixed;
+     display: block;
+     overflow: visible;
+     padding: 20px;
+     background-color: #002bff;
  }

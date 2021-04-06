@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+  }
 
 .head-cast {
     background-color: #F6F9FF;
@@ -84,6 +86,7 @@
 }
 .nav-cast ul li{
     font-family: 'Yatra One', cursive;
+    padding-left: 15px;
 }
 .nav-cast ul li a{
     border-bottom: 1px dotted transparent;

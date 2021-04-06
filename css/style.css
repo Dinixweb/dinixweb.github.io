@@ -4,7 +4,18 @@
     background-color: #F6F9FF;
     padding-top: 17px;
     display: flex;
-    justify-content:center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+@media screen and (max-width:1020px){
+    .head-cast {
+        background-color: #F6F9FF;
+        padding-top: 10px;
+        display: flex;
+        justify-content:space-between;
+        align-items: baseline;
+    }
 }
 @media screen and (max-width:700px){
     .head-cast {
@@ -12,12 +23,21 @@
         padding-top: 10px;
         display: flex;
         justify-content:space-between;
+        align-items: baseline;
     }
 }
 .logo-holder{
     display: inline;
     align-content: center;
-
+    margin-left: 100px;  
+}
+@media screen and (max-width:700px) {
+    .logo-holder{
+        display: inline;
+        align-content: center;
+        margin-left: 10px;  
+    }
+    
 }
 .logo-holder p{
     align-content: center;
@@ -25,6 +45,7 @@
     margin-top: 5px;
     font-family: 'Lobster', cursive;
     font-size: 35px;
+    cursor: pointer;
 }
 @media screen and (max-width:600px) {
     .logo-holder p{
@@ -33,16 +54,16 @@
         margin-top: 10px;
         font-size: 20px;
         padding: 0 10px;
+       
     }
     
 }
 .nav-holder{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:center;
     width:80%;
     align-items: center;
-
 }
 @media screen and (max-width:700px) {
     .nav-holder{
@@ -56,25 +77,17 @@
 }
 
 .nav-cast{
-    display: inline;
    
 }
 .nav-cast ul{
-    display: inline;
     list-style: none;
 }
 .nav-cast ul li{
-    margin-top: 20px;
-    display: inline;
-    padding: 20px 10px;
     font-family: 'Yatra One', cursive;
 }
 .nav-cast ul li a{
-    display: inline;
-    text-decoration: none;
-    color: #000;
     border-bottom: 1px dotted transparent;
-    transition: 0.3s;
+    transition: 0.5s;
     
 }
 .nav-cast ul li a:hover{
@@ -82,12 +95,24 @@
 }
 .cv-link{
     padding: 7px 30px;
-    margin-left: 10px;
+    margin-right:100px;
     border-radius: 30px;
     border: 1px solid rgb(216, 5, 86);
     text-align: center;
     color: #333;
-    animation:linear 0.4s ease-in-out;
+    animation:linear 0.4s ease-in-out;  
+}
+@media screen and (max-width:700px) {
+    .cv-link{
+        padding: 7px 30px;
+        margin-right:10px;
+        border-radius: 30px;
+        border: 1px solid rgb(216, 5, 86);
+        text-align: center;
+        color: #333;
+        animation:linear 0.4s ease-in-out;
+    }
+    
 }
 .cv-link:hover{
     background: linear-gradient(90deg, rgba(157,5,81,1) 0%, rgba(171,5,93,1) 41%, rgba(249,6,126,1) 100%);
@@ -95,6 +120,7 @@
     color: #fff;
     cursor: pointer;
     animation: 0.3s ease-in;
+
 }
 .glow-on-hover {
 

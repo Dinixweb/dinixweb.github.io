@@ -136,7 +136,6 @@ html {
     z-index: 0;
     border-radius: 10px;
 }
-
 .glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -250,13 +249,14 @@ html {
     box-shadow:  3px 2px 3px 1px rgb(226, 225, 225);
     font-family: 'Yatra One', cursive;
     font-size: 1.1em;
-
 }
 .box-content:hover{
     background-color: #d4d3d3;
     background:-webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: all 0.6s;
+    
 
 }
 .content-skills{
@@ -277,7 +277,6 @@ html {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(auto, 650px));
         padding: 20px;
-
     }
 }
 @media screen and (max-width: 700px){
@@ -285,7 +284,6 @@ html {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(auto, 300px));
         padding: 20px;
-
     }
 }
 .projects{

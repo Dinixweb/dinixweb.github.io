@@ -439,3 +439,12 @@ html {
      padding: 20px;
      background-color: #002bff;
  }
+
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
+  
+.cd-top--fade-out {
+    opacity: .5;
+  }

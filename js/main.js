@@ -3,3 +3,7 @@ window.scroll({
     left: 0, 
     behavior: 'smooth'
   });
+
+  var offset = 300,  
+  offsetOpacity = 1200, 
+  scrollDuration = 700;

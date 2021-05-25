@@ -356,7 +356,7 @@ html {
 .about-me-content{
     padding-top:10px;
     font-size: 1.1em;
-    color: #333;
+    color: rgb(170, 170, 170);
     text-align: center;
    
 }
@@ -364,14 +364,14 @@ html {
 .about-outer{
     padding: 20px 100px;
     border-radius: 10px;
-    background-color: #F4F4F4;
+    background-color: #000000;
   
 }
 @media screen and (max-width: 600px){
     .about-outer{
         padding: 10px;
         border-radius: 10px;
-        background-color: #F4F4F4;
+        background-color: #000000;
       
     }
 }

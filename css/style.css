@@ -224,6 +224,7 @@ html {
     display: flex;
     padding: 10px;
     align-items: center; 
+    cursor: pointer;
 }
 .box-icon{
     display: flex;
@@ -319,6 +320,7 @@ html {
     display: flex;
     align-items: center;
     padding: 10px;
+
 }
 #lb{
     border: 1px solid #333;

@@ -356,7 +356,11 @@ html {
     border-bottom: 1px dotted;
 }
 .about-me-content{
+    display: flex;
+    flex-direction: column;
     padding-top:10px;
+    min-width: auto;
+    max-width: 900px;
     font-size: 1.1em;
     color: rgb(170, 170, 170);
     text-align: center;
@@ -364,7 +368,7 @@ html {
 }
 
 .about-outer{
-    padding: 20px 100px;
+    padding: 20px 50px;
     border-radius: 10px;
     background-color: #000000;
   
@@ -450,3 +454,15 @@ html {
 .cd-top--fade-out {
     opacity: .5;
   }
+  .email:hover{
+      background-color:  rgba(252,70,107,1);
+      color:#fff;
+  }
+.email a{
+      color:#fff;
+
+  }
+  .email a:hover{
+    color:#fff;
+    text-decoration: none;
+}

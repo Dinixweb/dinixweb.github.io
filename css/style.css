@@ -388,10 +388,8 @@ html {
     align-content: center;
 }
 .wrap-footer{
-    display: grid;
-    grid-template-columns:repeat(auto-fill, minmax(auto, 600px));
-   justify-content: center;
-    width: 100%;
+    display: flex;
+   justify-content: space-between;
 }
 
 .copyright{
